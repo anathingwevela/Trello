@@ -1,0 +1,174 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1,5;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+.top-nav{
+display: flex;
+justify-content: space-around;
+background-color: #B3001B;<--!Alabama crimson-->
+}
+.top-nav p{
+  color: white;
+}
+.top-nav a{
+  text-decoration: none;
+  margin-left: 15px;
+  color: white;
+}
+.mid-nav{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.right-icons i{
+  margin-right: 5px;
+}
+.mid-nav input{
+  height: 28px;
+}
+.nav-bottom{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+.nav-bottom button{
+  height: 30px;
+  width: 2px 15px;
+  background-color: black;
+  color: white;
+}
+.nav-bottom ul li {
+  display: inline-block;
+  margin-right: 10px;
+  text-decoration: none;
+}
+.nav-bottom ul li a{
+  text-decoration: none;
+  color: #000000;
+}
+.nav-bottom img{
+
+}
+.bottom-section{
+  display: flex;
+  align-content: center;
+  flex-direction: row-reverse;
+  margin-right: 80px;
+}
+.shopping{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.checked{
+  color: orange;
+}
+.shopping-items{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.middle-nav-shopping-carts{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  background-color: #D8DDDE;
+  padding:15px;
+}
+.middle-nav-shopping-carts i{
+  color: rgba(255, 0, 0, 0.5);
+}
+.Main-Content{
+  display: flex;
+  justify-content: space-around;
+}
+.nav ul, li, a{
+  display: inline-block;
+  margin-left: 10px;
+}
+.accessories{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  width: 1024;
+  margin: auto;
+  margin-bottom: 50px;
+  padding-top: 50px;
+}
+.Fan-Festival{
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+.deals-of-the-day{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+
+}
+.Editors-Picks{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-left: 50;
+}
+.Sign-up{
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+
+}
+.Input, .form{
+  height: 30px;
+  width: 50% ;
+  margin-bottom: 0;
+}
+.last-section{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  padding: 5%;
+  margin-right: 20px;
+}
